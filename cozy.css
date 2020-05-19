@@ -1,0 +1,96 @@
+
+body {
+    background-color: black;
+    color: seashell;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.9;
+    padding-right: 120px;
+    padding-left: 60px;
+    
+}
+
+.first{
+    font-style: italic;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: seashell;
+}
+
+.topside{
+    text-decoration: underline;
+    color: seashell;
+    align-items: flex-end;
+    justify-self: right;
+}
+
+.mission{
+    background-image: url(img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1200px;
+    height: 700px;
+    position: relative;
+
+    
+}
+
+.sub-mission{
+    background-color: black;
+    background-size: cover;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.second{
+    width: 1000px;
+    text-align: center;
+    align-items: center;
+}
+
+.teas{
+    width: 300px;
+    height: 200px;
+    right: auto;
+    padding-bottom: 10px; 
+    align-items: center;
+    overflow-wrap: normal;
+}
+
+.Locations{
+    text-align: center;
+    background-image: url(img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+}
+
+.sub-location {
+    background-color: black;
+}
+
+.footer{
+    text-align: center;
+    height: 200px;
+}
+
+.cozy{
+    padding-bottom: 10px;
+}
+.topside{
+    text-decoration: seashell;
+}
